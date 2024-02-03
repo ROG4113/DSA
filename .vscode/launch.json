@@ -1,0 +1,416 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "EvenInArray",
+      "request": "launch",
+      "mainClass": "Leetcode.EvenInArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "DiagonalSum",
+      "request": "launch",
+      "mainClass": "Leetcode.DiagonalSum",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "CountMatches",
+      "request": "launch",
+      "mainClass": "Leetcode.CountMatches",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Dice",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion8.Dice",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "PhoneNumber",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion8.PhoneNumber",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion8.Test",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Permutations",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion7.Permutations",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion7.Test",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "HighestAltitude",
+      "request": "launch",
+      "mainClass": "Leetcode.HighestAltitude",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SubseqIterative",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion6.SubseqIterative",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SubseqASCII",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion6.SubseqASCII",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Subseq",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion6.Subseq",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "RemoveA",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion6.RemoveA",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "temp",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion6.temp",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "QuickSort",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion5.QuickSort",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Pangram",
+      "request": "launch",
+      "mainClass": "Leetcode.Pangram",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "ArrayInOrder",
+      "request": "launch",
+      "mainClass": "Leetcode.ArrayInOrder",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "MergeSort",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion5.MergeSort",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SelectionSort",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion4.SelectionSort",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion4.BubbleSort",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Pattern",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion4.Pattern",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "RotatedBinary",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion3.RotatedBinary",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "LinearSearch",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion3.LinearSearch",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Sorted",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion3.Sorted",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SmallerThanCurrent",
+      "request": "launch",
+      "mainClass": "Leetcode.SmallerThanCurrent",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "ReduceToZero",
+      "request": "launch",
+      "mainClass": "Leetcode.ReduceToZero",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "CountZeroes",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion2.CountZeroes",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Reverse",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion2.Reverse",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SumOfDigits",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion2.SumOfDigits",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion2.Factorial",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Nto1",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion2.Nto1",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "GoodPairs",
+      "request": "launch",
+      "mainClass": "Leetcode.GoodPairs",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "KidWithGreatestCandies",
+      "request": "launch",
+      "mainClass": "Leetcode.KidWithGreatestCandies",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "ShuffleTheArray",
+      "request": "launch",
+      "mainClass": "Leetcode.ShuffleTheArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "RichestCustomer",
+      "request": "launch",
+      "mainClass": "Leetcode.RichestCustomer",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "FlippingAnImage",
+      "request": "launch",
+      "mainClass": "Leetcode.FlippingAnImage",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "MathsForDSA",
+      "request": "launch",
+      "mainClass": "MathsForDSA",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "ConcatenationOfArray",
+      "request": "launch",
+      "mainClass": "Leetcode.ConcatenationOfArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "RunningSumOf1DArray",
+      "request": "launch",
+      "mainClass": "Leetcode.RunningSumOf1DArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "BinarySearch",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion1.BinarySearch",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion1.Fibonacci",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Intro",
+      "request": "launch",
+      "mainClass": "Recursion.Intro",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SearchInsertPosition",
+      "request": "launch",
+      "mainClass": "Leetcode.SearchInsertPosition",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "ContainsDuplicate",
+      "request": "launch",
+      "mainClass": "Leetcode.ContainsDuplicate",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "PlusOne",
+      "request": "launch",
+      "mainClass": "Leetcode.PlusOne",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "RemoveElement",
+      "request": "launch",
+      "mainClass": "Leetcode.RemoveElement",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Patterns",
+      "request": "launch",
+      "mainClass": "Patterns",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "DuplicateElements",
+      "request": "launch",
+      "mainClass": "Leetcode.DuplicateElements",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "CyclicSort",
+      "request": "launch",
+      "mainClass": "CyclicSort",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "insertionSort",
+      "request": "launch",
+      "mainClass": "insertionSort",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "VarArgs",
+      "request": "launch",
+      "mainClass": "VarArgs",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SelectionSort",
+      "request": "launch",
+      "mainClass": "SelectionSort",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "BubbleSort",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "OOPs.OOP3.Inheritance.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "binary_search",
+      "request": "launch",
+      "mainClass": "BinarySearch.binary_search",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

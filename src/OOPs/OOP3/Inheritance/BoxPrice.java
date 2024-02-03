@@ -8,6 +8,6 @@ public class BoxPrice extends Boxweight{
     }
     BoxPrice(double l, double w, double h, double weight, double price){
         super(l, w, h, weight);
-        this.price = price; 
+        this.price = price;  
     }
 }

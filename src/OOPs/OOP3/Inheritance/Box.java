@@ -25,6 +25,6 @@ public class Box {int a = 2;
     Box(Box old){
         this.l = old.l;
         this.h = old.h;
-        this.w = old.w; 
-    }
+        this.w = old.w;  
+        }
 }

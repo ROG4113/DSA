@@ -13,7 +13,7 @@ public class VarArgs{
         System.out.println("First name: "+a+"\nLast name: "+b);
     }
 
-    static void gret(String a, String b, String c){
+    static void greet(String a, String b, String c){
         System.out.println("First name: "+a+"\nMiddle name: "+b+"\nLast name: "+c);
     }
 
