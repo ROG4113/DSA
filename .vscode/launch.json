@@ -3,6 +3,97 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrangingCoins",
+      "request": "launch",
+      "mainClass": "Leetcode.ArrangingCoins",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "LetterGreaterThanTagrget",
+      "request": "launch",
+      "mainClass": "Leetcode.LetterGreaterThanTagrget",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum2",
+      "request": "launch",
+      "mainClass": "Leetcode.TwoSum2",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "PrintAllPath",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion9.PrintAllPath",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "AllPaths",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion9.AllPaths",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "FirstBadVersion",
+      "request": "launch",
+      "mainClass": "Leetcode.FirstBadVersion",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "ProductOfArray",
+      "request": "launch",
+      "mainClass": "Leetcode.ProductOfArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "sqrt",
+      "request": "launch",
+      "mainClass": "Leetcode.sqrt",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "RotateArray",
+      "request": "launch",
+      "mainClass": "Leetcode.RotateArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "MazeObstacle",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion9.MazeObstacle",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "PrintingMazePath",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion9.PrintingMazePath",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Maze",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion9.Maze",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "AddToArray",
+      "request": "launch",
+      "mainClass": "Leetcode.AddToArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "EvenInArray",
       "request": "launch",
       "mainClass": "Leetcode.EvenInArray",
