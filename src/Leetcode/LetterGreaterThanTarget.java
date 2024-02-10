@@ -1,6 +1,6 @@
 package Leetcode;
 
-public class LetterGreaterThanTagrget {
+public class LetterGreaterThanTarget {
     public static char nextGreatestLetter(char[] letters, char target) {
         for (char i : letters) {
             if((int)i>(int)target){

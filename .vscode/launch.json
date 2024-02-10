@@ -3,6 +3,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BinarySearch",
+      "request": "launch",
+      "mainClass": "Leetcode.BinarySearch",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SudokuSolver",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion10.Backtracking.SudokuSolver",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "NKnights",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion10.Backtracking.NKnights",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "NQueens",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion10.Backtracking.NQueens",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "random",
+      "request": "launch",
+      "mainClass": "Leetcode.random",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "PowerOfTwoRec",
+      "request": "launch",
+      "mainClass": "Leetcode.PowerOfTwoRec",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "MergeSortedArray",
+      "request": "launch",
+      "mainClass": "Leetcode.MergeSortedArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "LetterGreaterThanTarget",
+      "request": "launch",
+      "mainClass": "Leetcode.LetterGreaterThanTarget",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "ArrangingCoins",
       "request": "launch",
       "mainClass": "Leetcode.ArrangingCoins",
