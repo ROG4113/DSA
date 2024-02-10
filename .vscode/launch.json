@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SudokuSolver",
+      "request": "launch",
+      "mainClass": "Recursion.Recursion10.SudokuSolver",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "BinarySearch",
       "request": "launch",
       "mainClass": "Leetcode.BinarySearch",

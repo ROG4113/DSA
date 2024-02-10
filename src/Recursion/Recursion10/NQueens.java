@@ -1,4 +1,4 @@
-package Recursion.Recursion10.Backtracking;
+package Recursion.Recursion10;
 
 public class NQueens {
     static int queens(boolean[][] board, int row){

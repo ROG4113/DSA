@@ -1,4 +1,4 @@
-package Recursion.Recursion10.Backtracking;
+package Recursion.Recursion10;
 
 public class SudokuSolver {
     static boolean solve(int[][] board){

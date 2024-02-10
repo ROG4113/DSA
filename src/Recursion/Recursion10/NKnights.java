@@ -1,4 +1,4 @@
-package Recursion.Recursion10.Backtracking;
+package Recursion.Recursion10;
 
 public class NKnights {
     static void knights(boolean[][] board, int row, int col, int targets){
