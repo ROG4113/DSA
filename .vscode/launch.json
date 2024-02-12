@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "LinkedList.DoublyLL.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "LinkedList.SinglyLinkedList.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "LinkedList.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "SudokuSolver",
       "request": "launch",
       "mainClass": "Recursion.Recursion10.SudokuSolver",
