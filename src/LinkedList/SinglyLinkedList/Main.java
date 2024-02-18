@@ -15,12 +15,15 @@ public class Main {
         list.insertFirst(100);
         list.insertLast(99);
         list.insertRandom(98, 4);
-        list.display();
+        // list.display();
         System.out.println(list.deleteBeginning());
         System.out.println(list.deleteLast());
-        list.display();
+        // list.display();
         System.out.println(list.deleteRan(4));
-        list.display();
         System.out.println(list.get(4));
+        list.display();
+        list.insertRec(55, 2);
+        list.display();
+
     }
 }

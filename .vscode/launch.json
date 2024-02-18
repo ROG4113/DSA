@@ -5,6 +5,83 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "Queue.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Dequeue",
+      "request": "launch",
+      "mainClass": "Queue.Dequeue",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Stack.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "QueueInbuilt",
+      "request": "launch",
+      "mainClass": "Queue.QueueInbuilt",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "StackInbuilt",
+      "request": "launch",
+      "mainClass": "Stack.StackInbuilt",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Stacks",
+      "request": "launch",
+      "mainClass": "Stacks",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SingleElement",
+      "request": "launch",
+      "mainClass": "Leetcode.SingleElement",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Robber",
+      "request": "launch",
+      "mainClass": "Leetcode.Robber",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SinglyLL",
+      "request": "launch",
+      "mainClass": "LinkedList.SinglyLinkedList.SinglyLL",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Intersection",
+      "request": "launch",
+      "mainClass": "Leetcode.Intersection",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "StartAndEnd",
+      "request": "launch",
+      "mainClass": "Leetcode.StartAndEnd",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "LinkedList.DoublyLL.Main",
       "projectName": "DSA_34d532f1"
     },
