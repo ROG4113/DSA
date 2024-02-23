@@ -3,6 +3,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IntersectionOfArray",
+      "request": "launch",
+      "mainClass": "Leetcode.IntersectionOfArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Trees.BinarySearchTrees.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Trees.BinaryTrees.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "MinValidParanthesis",
+      "request": "launch",
+      "mainClass": "Leetcode.MinValidParanthesis",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "ValidParanthesis",
+      "request": "launch",
+      "mainClass": "Leetcode.ValidParanthesis",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "LargestAreaHistogram",
+      "request": "launch",
+      "mainClass": "Leetcode.LargestAreaHistogram",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "TwoStacks",
+      "request": "launch",
+      "mainClass": "Leetcode.TwoStacks",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "LuckyNumber",
+      "request": "launch",
+      "mainClass": "Leetcode.LuckyNumber",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Queue.Main",

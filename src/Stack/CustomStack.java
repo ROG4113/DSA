@@ -12,7 +12,7 @@ public class CustomStack {
         }
         ptr++;
         data[ptr]=item;
-        return false;
+        return true;
     }
     //method to pop an item
     public int pop() throws CustomException{
