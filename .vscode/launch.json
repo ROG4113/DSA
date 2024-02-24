@@ -3,6 +3,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LargeNumbers",
+      "request": "launch",
+      "mainClass": "BigInteger.LargeNumbers",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "BigInteger.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "LargeNumbers",
+      "request": "launch",
+      "mainClass": "LargeNumbers",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "StrBuffer",
+      "request": "launch",
+      "mainClass": "StringBuffer.StrBuffer",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "RandomString",
+      "request": "launch",
+      "mainClass": "StringBuffer.RandomString",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "StrBuffer",
+      "request": "launch",
+      "mainClass": "StrBuffer",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Trees.SegmentTrees.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Trees.AVLTrees.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "IntersectionOfArray",
       "request": "launch",
       "mainClass": "Leetcode.IntersectionOfArray",
