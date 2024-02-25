@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Leetcode.LinkedList.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "BinaryToInt",
+      "request": "launch",
+      "mainClass": "Leetcode.LinkedList.BinaryToInt",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Input",
+      "request": "launch",
+      "mainClass": "FileHandling.Input",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "FileHandling.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "LargeNumbers",
       "request": "launch",
       "mainClass": "BigInteger.LargeNumbers",
