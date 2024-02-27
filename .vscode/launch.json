@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Hashmaps",
+      "request": "launch",
+      "mainClass": "Hashing.Hashmaps",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "random1",
+      "request": "launch",
+      "mainClass": "random1",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Heaps.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Leetcode.LinkedList.Main",

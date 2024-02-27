@@ -1,10 +1,10 @@
-package Leetcode;
+package Leetcode.LinkedList;
 
 import LinkedList.SinglyLinkedList.MergeSort.ListNode;
 
 public class LL {
     public static ListNode head;
-    public class ListNode{
+    public class ListNode{  
         int val;
         ListNode next;
         //constructor
@@ -82,25 +82,36 @@ public class LL {
 
     //remove all the node with given value
     public ListNode removeElements(ListNode head, int val){
-        while(head.val!=val){
-            if(head.val==val){
-                if(head.next.val==val){
-                    head.next=head.next.next;
-                }
-                else{
-                    head=head.next;
-                }
-            }
+        // if(head==null){
+        //     return null;
+        // }
+        // ListNode temp=head;
+        // while(temp.next!=null){
+        //     if(temp.next.val==val){
+        //         temp.next=temp.next.next;
+        //     }
+        //     else{
+        //         temp=temp.next;
+        //     }
+        // }
+        // if(head.val==val){
+        //     head=head.next;
+        // }
+        // return head;
+        //using recursion
+        if(head==null){
+            return null;
         }
-        ListNode temp1=head;
-        ListNode temp2=head;
-        while(temp2!=null){
-            if(temp2.val==val){
-                temp1.next=temp2.next;
-            }
-            temp1=temp2;
-            temp2=temp2.next;
+        head.next=removeElements(head.next, val);
+        if(head.val==val){
+            return head.next;
         }
         return head;
+        
+        // if(head==null){
+        //     return null;
+        // }
+        // head.next = removeElements(head.next, val);
+        // return head.val == val ? head.next : head;
     }
 }
