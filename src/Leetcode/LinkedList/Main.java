@@ -1,5 +1,7 @@
 package Leetcode.LinkedList;
 
+import java.util.ArrayList;
+
 public class Main extends LL {
     public static void main(String[] args) {
         LL list=new LL();

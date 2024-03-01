@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Complement",
+      "request": "launch",
+      "mainClass": "Leetcode.Complement",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Hashing.Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "AddBinary",
+      "request": "launch",
+      "mainClass": "Leetcode.AddBinary",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "palindromeNumber",
+      "request": "launch",
+      "mainClass": "Leetcode.palindromeNumber",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "IntersectionArray2",
+      "request": "launch",
+      "mainClass": "Leetcode.IntersectionArray2",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "Hashmaps",
       "request": "launch",
       "mainClass": "Hashing.Hashmaps",
