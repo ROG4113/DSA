@@ -108,4 +108,44 @@ public class LL {
         }
         return head;
     }
+    //odd even reorder
+    public ListNode oddEvenList(ListNode head) {
+        if(head==null){
+            return null;
+        }
+        ListNode tail=head;
+        ListNode previous=head;
+        ListNode present=head.next;
+        int size=1;
+        while(tail.next!=null){
+            tail=tail.next;
+            size++;
+        }
+        int swaps=0;
+        while(swaps<size/2){
+            tail.next=present;
+            previous.next=present.next;
+            tail=present;
+            tail.next=null;
+            present=previous.next.next;
+            previous=previous.next;
+            swaps++;
+        }
+        return head;
+    }
+    //remove nth node from end of the list
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode prev=new ListNode(0);
+        ListNode first=prev, second=prev;
+        second.next=head;
+        for (int i = 0; i <= n && first.next!=null; i++) {
+            first=first.next;
+        }
+        while(first!=null){
+            second=second.next;
+            first=first.next;
+        }
+        second.next=second.next.next;
+        return prev.next;
+    }
 }
