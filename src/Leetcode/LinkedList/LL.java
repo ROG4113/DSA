@@ -148,4 +148,15 @@ public class LL {
         second.next=second.next.next;
         return prev.next;
     }
+    //delete middle of the linkedlist
+    public ListNode deleteMiddle(ListNode head) {
+        ListNode fast=head, slow=head, prev=slow;
+        while(fast!=null && fast.next!=null){
+            prev=slow;
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        prev.next=prev.next.next;
+        return head;
+    }
 }

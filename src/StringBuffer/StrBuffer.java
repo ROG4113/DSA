@@ -36,5 +36,6 @@ public class StrBuffer {
         DecimalFormat df=new DecimalFormat("00.00000000");
         System.out.println(df.format(7.29));
         System.out.println(arr.contains("z"));
+        System.out.println(arr.replace("A", "[.]"));
     }
 }
