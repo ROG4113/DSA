@@ -1,5 +1,7 @@
 package Leetcode.LinkedList;
 
+import java.util.ArrayList;
+
 import LinkedList.SinglyLinkedList.MergeSort.ListNode;
 
 public class LL {
@@ -180,5 +182,25 @@ public class LL {
         temp1.next=high.next;
         temp2.next=null;
         return less.next;
+    }
+    //swapping nodes in linked list
+    public ListNode swapNodes(ListNode head, int k) {
+        ArrayList<ListNode> list= new ArrayList<ListNode>();
+        while(head!=null){
+            list.add(head);
+            head=head.next;
+        }
+        //swap
+        ListNode temp=list.get(k-1);
+        list.set(k-1, list.get(list.size()-k));
+        list.set(list.size()-k, temp);
+        ListNode ans=new ListNode(-1);
+        ListNode temp1=ans;
+        for(ListNode i:list){
+            temp1.next=i;
+            temp1=temp1.next;
+        }
+        temp1.next=null;
+        return ans.next;
     }
 }
