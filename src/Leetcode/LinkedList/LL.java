@@ -159,4 +159,26 @@ public class LL {
         prev.next=prev.next.next;
         return head;
     }
+    //partition list
+    public ListNode partition(ListNode head, int x) {
+        ListNode less=new ListNode(-1);
+        ListNode high=new ListNode(-1);
+        ListNode temp=head;
+        ListNode temp1=less;
+        ListNode temp2=high;
+        while(temp!=null){
+            if(temp.val<x){
+                temp1.next=head;
+                temp1=temp1.next;
+            }
+            else{
+                temp2.next=head;
+                temp2=temp2.next;
+            }
+            temp=temp.next;
+        }
+        temp1.next=high.next;
+        temp2.next=null;
+        return less.next;
+    }
 }
