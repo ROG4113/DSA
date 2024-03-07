@@ -2,7 +2,7 @@ package Leetcode.LinkedList;
 
 import java.util.ArrayList;
 
-import LinkedList.SinglyLinkedList.MergeSort.ListNode;
+// import LinkedList.SinglyLinkedList.MergeSort.ListNode;
 
 public class LL {
     public static ListNode head;
@@ -184,23 +184,42 @@ public class LL {
         return less.next;
     }
     //swapping nodes in linked list
-    public ListNode swapNodes(ListNode head, int k) {
-        ArrayList<ListNode> list= new ArrayList<ListNode>();
-        while(head!=null){
-            list.add(head);
-            head=head.next;
+    public int[] nodesBetweenCriticalPoints(ListNode head) {
+        if(head==null || head.next==null || head.next.next==null){
+            return new int[]{-1, -1};
         }
-        //swap
-        ListNode temp=list.get(k-1);
-        list.set(k-1, list.get(list.size()-k));
-        list.set(list.size()-k, temp);
-        ListNode ans=new ListNode(-1);
-        ListNode temp1=ans;
-        for(ListNode i:list){
-            temp1.next=i;
-            temp1=temp1.next;
+        ArrayList<Integer> list=new ArrayList<Integer>();
+        ListNode prev=head;
+        ListNode current=head.next;
+        ListNode next=head.next.next;
+        int distance=2;
+        while(next!=null){
+            if(current.val<prev.val && current.val<next.val){
+                list.add(distance);
+            }
+            if(current.val>prev.val && current.val>next.val){
+                list.add(distance);
+            }
+            prev=prev.next;
+            current=current.next;
+            next=next.next;
+            distance++;
         }
-        temp1.next=null;
-        return ans.next;
+        if(list.size()<2){
+            return new int[]{-1, -1};
+        }
+        System.out.println(list);
+        int min=minimum(list);
+        int max=list.get(list.size()-1)-list.get(0);
+        return new int[]{min, max};
+    }
+    private int minimum(ArrayList<Integer> list) {
+        int min=list.get(1)-list.get(0);
+        for(int i=1; i<list.size()-1; i++){
+            if(list.get(i+1)-list.get(i)<min){
+                min=list.get(i+1)-list.get(i);
+            }
+        }
+        return min;
     }
 }
