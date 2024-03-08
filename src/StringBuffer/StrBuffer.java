@@ -37,5 +37,6 @@ public class StrBuffer {
         System.out.println(df.format(7.29));
         System.out.println(arr.contains("z"));
         System.out.println(arr.replace("A", "[.]"));
+        System.out.println(arr.compareTo("e"));
     }
 }

@@ -222,4 +222,41 @@ public class LL {
         }
         return min;
     }
+    //Max twin sum
+    public int pairSum(ListNode head) {
+        ListNode mid=getMid(head);
+        ListNode revMid=rev(mid);
+        int max=0;
+        while(revMid!=null){
+            if(head.val+revMid.val>max){
+                max=head.val+revMid.val;
+            }
+            revMid=revMid.next;
+            head=head.next;
+        }
+        return max;
+    }
+    private ListNode getMid(ListNode head){
+        ListNode slow=head;
+        ListNode fast=head;
+        while(fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        return slow;
+    }
+    private ListNode rev(ListNode head){
+        ListNode prev=null;
+        ListNode pres=head;
+        ListNode next=head.next;
+        while(pres!=null){
+            pres.next=prev;
+            prev=pres;
+            pres=next;
+            if(next!=null){
+            next=next.next;
+            }
+        }
+        return prev;
+    }
 }
