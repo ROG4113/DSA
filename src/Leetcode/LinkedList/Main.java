@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class Main extends LL {
     public static void main(String[] args) {
         LL list=new LL();
-        list.insertLast(5);
-        list.insertLast(4);
-        list.insertLast(2);
-        list.insertLast(1);
+        list.insertLast(9);
+        list.insertLast(9);
+        list.insertLast(9);
+        // list.insertLast(1);
         // list.insertLast(9);
         // list.insertLast(6);
         // list.insertLast(6);
@@ -25,7 +25,10 @@ public class Main extends LL {
         // list.partition(head, 3);
         // list.swapNodes(head, 2);
         // System.out.println(Arrays.toString(list.nodesBetweenCriticalPoints(head)));
-        System.out.println(list.pairSum(head));
+        // System.out.println(list.pairSum(head));
+        // list.splitListToParts(head, 0);
+        list.doubleIt(head);
         list.display();
-    }    
+        System.out.println(3%5);
+    }
 }

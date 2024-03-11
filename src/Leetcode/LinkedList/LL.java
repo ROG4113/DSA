@@ -1,6 +1,7 @@
 package Leetcode.LinkedList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 // import LinkedList.SinglyLinkedList.MergeSort.ListNode;
 
@@ -258,5 +259,52 @@ public class LL {
             }
         }
         return prev;
+    }
+    //split list
+    public ListNode[] splitListToParts(ListNode head, int k) {
+        ListNode[] arr=new ListNode[k];
+        ListNode temp=head;
+        int length=0;
+        while(temp!=null){
+            if(temp!=null){
+                temp=temp.next;
+                length++;
+            }
+        }
+        int index=0;
+        int n=length/k;
+        int extra=length%k;
+        ListNode cur=head;
+        ListNode prev=null;;
+        while(cur!=null){
+            int skip=n;
+            arr[index]=cur;
+            if(index<=skip){
+                prev=cur;
+                if(cur!=null){
+                    cur=cur.next;
+                }
+            }
+            prev.next=null;
+        }
+        return arr;
+    }
+    //double the number in linkedlist
+    public ListNode doubleIt(ListNode head) {
+        ListNode temp=rev(head), newHead=temp, prev=null;
+        int carry=0;
+        while(temp!=null){
+            int sum=0;
+            sum=temp.val*2;
+            sum+=carry;
+            carry=sum/10;
+            temp.val=sum%10;
+            prev=temp;
+            temp=temp.next;
+        }
+        if(carry!=0){
+            prev.next=new ListNode(carry);
+        }
+        return rev(newHead);
     }
 }

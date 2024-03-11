@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Random1",
+      "request": "launch",
+      "mainClass": "Leetcode.Random1",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "CheckSorted",
+      "request": "launch",
+      "mainClass": "Leetcode.CheckSorted",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "CheckSorted",
+      "request": "launch",
+      "mainClass": "Leetcode.LinkedList.CheckSorted",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "reverse",
+      "request": "launch",
+      "mainClass": "Leetcode.reverse",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "KarpRabinAlgo.Main",
