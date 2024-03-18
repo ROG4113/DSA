@@ -3,6 +3,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RotateString",
+      "request": "launch",
+      "mainClass": "Leetcode.RotateString",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SearchInRotatedArray",
+      "request": "launch",
+      "mainClass": "Leetcode.SearchInRotatedArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "LargestPalindromicSubstring",
+      "request": "launch",
+      "mainClass": "Leetcode.LargestPalindromicSubstring",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "LeadersInArray",
+      "request": "launch",
+      "mainClass": "Leetcode.LeadersInArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "NextPermutation",
+      "request": "launch",
+      "mainClass": "Leetcode.NextPermutation",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "LargestOddNumber",
+      "request": "launch",
+      "mainClass": "Leetcode.LargestOddNumber",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "ReverseWordsInString",
+      "request": "launch",
+      "mainClass": "Leetcode.ReverseWordsInString",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "PalindromicSubstring",
+      "request": "launch",
+      "mainClass": "Leetcode.PalindromicSubstring",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SumOfValue",
+      "request": "launch",
+      "mainClass": "Leetcode.SumOfValue",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "Random1",
       "request": "launch",
       "mainClass": "Leetcode.Random1",

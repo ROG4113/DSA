@@ -38,5 +38,6 @@ public class StrBuffer {
         System.out.println(arr.contains("z"));
         System.out.println(arr.replace("A", "[.]"));
         System.out.println(arr.compareTo("e"));
+        System.out.println(arr.com);
     }
 }
