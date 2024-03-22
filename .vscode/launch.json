@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IfSortedAndRotated",
+      "request": "launch",
+      "mainClass": "Leetcode.IfSortedAndRotated",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "MaxPairs",
+      "request": "launch",
+      "mainClass": "Leetcode.MaxPairs",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "SortCharByFreq",
+      "request": "launch",
+      "mainClass": "Leetcode.SortCharByFreq",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "RotateString",
       "request": "launch",
       "mainClass": "Leetcode.RotateString",
