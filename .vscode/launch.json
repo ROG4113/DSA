@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestRepeatingChar",
+      "request": "launch",
+      "mainClass": "Leetcode.LongestRepeatingChar",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "MaxConsecutiveOne",
+      "request": "launch",
+      "mainClass": "Leetcode.MaxConsecutiveOne",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "MaxPointsFromCards",
+      "request": "launch",
+      "mainClass": "Leetcode.MaxPointsFromCards",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "Leetcode.test",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubstring",
+      "request": "launch",
+      "mainClass": "Leetcode.LongestSubstring",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "IfSortedAndRotated",
       "request": "launch",
       "mainClass": "Leetcode.IfSortedAndRotated",
