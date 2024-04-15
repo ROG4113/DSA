@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MountainArray",
+      "request": "launch",
+      "mainClass": "BSQuestions.MountainArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "InfiniteArray",
+      "request": "launch",
+      "mainClass": "BSQuestions.InfiniteArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "FirstAndLastPos",
+      "request": "launch",
+      "mainClass": "BSQuestions.FirstAndLastPos",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "CeilingOfNumber",
+      "request": "launch",
+      "mainClass": "BSQuestions.CeilingOfNumber",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "L1423",
       "request": "launch",
       "mainClass": "Leetcode.L1423",
