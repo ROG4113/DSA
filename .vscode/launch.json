@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "L496",
+      "request": "launch",
+      "mainClass": "Leetcode.L496",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "L560",
+      "request": "launch",
+      "mainClass": "Leetcode.L560",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "L1019",
+      "request": "launch",
+      "mainClass": "Leetcode.L1019",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "MountainArray",
       "request": "launch",
       "mainClass": "BSQuestions.MountainArray",
