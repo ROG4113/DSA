@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "L1343",
+      "request": "launch",
+      "mainClass": "Leetcode.L1343",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "L76",
+      "request": "launch",
+      "mainClass": "Leetcode.L76",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "L1493",
       "request": "launch",
       "mainClass": "Leetcode.L1493",
