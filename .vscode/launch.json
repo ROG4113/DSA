@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "Demo",
+      "request": "launch",
+      "mainClass": "Demo",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "java",
+      "request": "launch",
+      "mainClass": "java",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
+      "name": "ReversalOfArray",
+      "request": "launch",
+      "mainClass": "ReversalOfArray",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "L1343",
       "request": "launch",
       "mainClass": "Leetcode.L1343",
