@@ -1,10 +1,9 @@
 package Leetcode;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.LinkedList;
 
-public class AddToArray {
+public class L989 {
     public static List<Integer> addToArrayForm(int[] num, int k) {
         LinkedList<Integer> ans=new LinkedList<Integer>();
         int carry=0, r=num.length-1;
