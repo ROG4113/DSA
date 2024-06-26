@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SubsetSum",
+      "request": "launch",
+      "mainClass": "Leetcode.SubsetSum",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "L209",
       "request": "launch",
       "mainClass": "Leetcode.L209",
