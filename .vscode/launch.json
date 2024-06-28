@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "L784",
+      "request": "launch",
+      "mainClass": "Leetcode.L784",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "L46",
       "request": "launch",
       "mainClass": "Leetcode.L46",
