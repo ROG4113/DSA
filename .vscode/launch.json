@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "L1190",
+      "request": "launch",
+      "mainClass": "Leetcode.L1190",
+      "projectName": "DSA_34d532f1"
+    },
+    {
+      "type": "java",
       "name": "L1823",
       "request": "launch",
       "mainClass": "Leetcode.L1823",
