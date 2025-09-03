@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "intro",
+      "request": "launch",
+      "mainClass": "intro",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "L2618",
       "request": "launch",
       "mainClass": "Leetcode.L2618",
