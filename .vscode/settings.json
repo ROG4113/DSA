@@ -1,6 +1,7 @@
 {
   "java.project.sourcePaths": [
-    "src"
+    "src/Dynamic Programming",
+    "L2"
   ],
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": [

@@ -5,6 +5,20 @@
       "type": "java",
       "name": "Fibonacci",
       "request": "launch",
+      "mainClass": "L1.Fibonacci",
+      "projectName": "DSA_cd8b28cf"
+    },
+    {
+      "type": "java",
+      "name": "ClimbingStairs",
+      "request": "launch",
+      "mainClass": "L2.ClimbingStairs",
+      "projectName": "DSA_cd8b28cf"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
       "mainClass": "Fibonacci",
       "projectName": ""
     },
