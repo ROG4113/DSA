@@ -1,4 +1,4 @@
-package L1;
+package DynamicProgramming.L1;
 
 class Fibonacci{
     // memoization TC-> O(n) SC-> O(n) + O(n)

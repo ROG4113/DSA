@@ -1,4 +1,4 @@
-package L2;
+package DynamicProgramming.L2;
 
 public class ClimbingStairs {
 
@@ -28,7 +28,7 @@ public class ClimbingStairs {
         return dp[n];
     }
 
-    // tabulation TC-> O(n) SC-> O(1)
+    // tabulation(optimized for space complexity) TC-> O(n) SC-> O(1)
     public static int climb2(int n, int[] dp){
         int prev=1;
         int prev2=1;

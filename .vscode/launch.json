@@ -6,6 +6,41 @@
       "name": "Fibonacci",
       "request": "launch",
       "mainClass": "L1.Fibonacci",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L1.Fibonacci",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "ClimbingStairs",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L2.ClimbingStairs",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "FrogJump",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L3.FrogJump",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "FrogJump",
+      "request": "launch",
+      "mainClass": "L3.FrogJump",
+      "projectName": "DSA_cd8b28cf"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "L1.Fibonacci",
       "projectName": "DSA_cd8b28cf"
     },
     {
