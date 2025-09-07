@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FrogJumpKSteps",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L3.FrogJumpKSteps",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "Fibonacci",
       "request": "launch",
       "mainClass": "L1.Fibonacci",
