@@ -34,7 +34,7 @@ public class FrogJumpKSteps {
         return dp[n]=minSteps;
     }
 
-    // recursion TC-> O(n) SC-> O(n)
+    // tabulation TC-> O(n) SC-> O(n)
     public static int jump2(int[] arr, int[] dp, int n, int k){
         dp[0]=0;
         for(int i=1; i<=n; i++){

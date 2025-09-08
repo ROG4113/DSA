@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HouseRobber",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L4.HouseRobber",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "FrogJumpKSteps",
       "request": "launch",
       "mainClass": "DynamicProgramming.L3.FrogJumpKSteps",
