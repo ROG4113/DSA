@@ -1,4 +1,4 @@
-package DynamicProgramming.L3;
+package DynamicProgramming.L4;
 
 public class FrogJumpKSteps {
     // recursion TC-> O(n) SC-> O(n)+O(n)

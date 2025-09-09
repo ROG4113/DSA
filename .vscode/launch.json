@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HouseRobber2",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L6.HouseRobber2",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "HouseRobber",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L5.HouseRobber",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "FrogJumpKSteps",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L4.FrogJumpKSteps",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "HouseRobber",
       "request": "launch",
       "mainClass": "DynamicProgramming.L4.HouseRobber",
