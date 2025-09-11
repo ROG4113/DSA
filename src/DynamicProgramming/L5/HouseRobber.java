@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class HouseRobber {
 
-    // memoization TC->O(2^n) SC->O(n)+O(n)
+    // recursion TC->O(2^n) SC->O(n)+O(n)
     public static int dp(int[] arr, int n){
         if(n==0){
             return arr[n];

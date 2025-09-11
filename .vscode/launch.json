@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NinjaTraining",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L7.NinjaTraining",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "NinjaTrainging",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L7.NinjaTrainging",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "HouseRobber2",
       "request": "launch",
       "mainClass": "DynamicProgramming.L6.HouseRobber2",
