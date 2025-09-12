@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "UniquePaths",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L8.UniquePaths",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "NinjaTraining",
       "request": "launch",
       "mainClass": "DynamicProgramming.L7.NinjaTraining",
