@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinimumPathSum",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L10.MinimumPathSum",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "UniquePaths2",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L9.UniquePaths2",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "UniquePaths",
       "request": "launch",
       "mainClass": "DynamicProgramming.L8.UniquePaths",
