@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Triangle",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L11.Triangle",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "MinimumPathSum",
       "request": "launch",
       "mainClass": "DynamicProgramming.L10.MinimumPathSum",
