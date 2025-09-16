@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinFallPath",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L12.MinFallPath",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L12.test",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "MinFallingPath",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L12.MinFallingPath",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "Triangle",
       "request": "launch",
       "mainClass": "DynamicProgramming.L11.Triangle",
