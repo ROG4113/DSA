@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NinjaFriends",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L13.NinjaFriends",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "MinFallPath",
       "request": "launch",
       "mainClass": "DynamicProgramming.L12.MinFallPath",
