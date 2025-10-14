@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EqualPartitionSum",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L15.EqualPartitionSum",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "SubsetSumK",
       "request": "launch",
       "mainClass": "DynamicProgramming.L14.SubsetSumK",
