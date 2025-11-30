@@ -35,11 +35,11 @@ public class HouseRobber {
 
     // tabulation TC->O(n) SC->O(1)
     public static int dp2(int[] arr, int[] dp, int n){
-        dp[0]=arr[n];
+        dp[0]=arr[0];
         for(int i=1; i<=n; i++){
             int take=arr[i];
             if(i>1) take+=dp[i-2];
-            int notTake=dp[i-1];
+            int notTake=0+dp[i-1];
             dp[i]=Math.max(take, notTake);
         }
         return dp[n];
@@ -65,8 +65,8 @@ public class HouseRobber {
         Arrays.fill(dp, -1);
         // int ans=dp(arr, n-1);
         // int ans=dp1(arr, dp, n-1);
-        // int ans=dp2(arr, dp, n-1);
-        int ans=dp3(arr, n-1);
+        int ans=dp2(arr, dp, n-1);
+        // int ans=dp3(arr, n-1);
         System.out.println(ans);
     }
 }
