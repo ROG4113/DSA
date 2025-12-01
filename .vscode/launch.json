@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayPartition",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L16.ArrayPartition",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "EqualPartitionSum",
       "request": "launch",
       "mainClass": "DynamicProgramming.L15.EqualPartitionSum",
