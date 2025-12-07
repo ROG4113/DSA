@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CountSubsets",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L17.CountSubsets",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "ArrayPartition",
       "request": "launch",
       "mainClass": "DynamicProgramming.L16.ArrayPartition",
