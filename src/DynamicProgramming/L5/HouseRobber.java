@@ -61,12 +61,12 @@ public class HouseRobber {
     public static void main(String[] args){
         int n=4;
         int[] arr=new int[]{1, 2, 3, 1};
-        int[] dp=new int[n+1];
+        int[] dp=new int[n];
         Arrays.fill(dp, -1);
         // int ans=dp(arr, n-1);
         // int ans=dp1(arr, dp, n-1);
-        int ans=dp2(arr, dp, n-1);
-        // int ans=dp3(arr, n-1);
+        // int ans=dp2(arr, dp, n-1);
+        int ans=dp3(arr, n-1);
         System.out.println(ans);
     }
 }

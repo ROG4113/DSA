@@ -1,7 +1,7 @@
 package DynamicProgramming.L4;
 
 public class FrogJumpKSteps {
-    // recursion TC-> O(n) SC-> O(n)+O(n)
+    // recursion TC-> O(n*k) SC-> O(n)+O(n)
     public static int jump(int[] arr, int n, int k){
         if(n==0){
             return 0;
@@ -44,8 +44,8 @@ public class FrogJumpKSteps {
                     int steps=dp[i-j]+Math.abs(arr[i]-arr[i-j]);
                     minSteps=Math.min(minSteps, steps);
                 }
-                dp[i]=minSteps;
             }
+            dp[i]=minSteps;
         }
         return dp[n];
     }

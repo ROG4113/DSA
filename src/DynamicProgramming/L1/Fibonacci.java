@@ -1,15 +1,23 @@
 package DynamicProgramming.L1;
 
 class Fibonacci{
+    // Recursion TC-> O(2^n) SC->O(n)
+    public static int fibo(int n){
+        if(n<=1){
+            return n;
+        }
+        return fibo(n-1)+fibo(n-2);
+    }
+
     // memoization TC-> O(n) SC-> O(n) + O(n)
-    public static int fibo(int n, int[] dp){
+    public static int fibo1(int n, int[] dp){
         if(n<=1){
             return n;
         }
         if(dp[n]!=-1){
             return dp[n];
         }
-        return dp[n]=fibo(n-1, dp)+fibo(n-2, dp);
+        return dp[n]=fibo1(n-1, dp)+fibo1(n-2, dp);
     }
     
     // tabulation TC-> O(n) SC-> O(n)
@@ -38,7 +46,8 @@ class Fibonacci{
         for(int i=0; i<dp.length; i++){
             dp[i]=-1;
         }
-        // int ans=fibo(n, dp);
+        // int ans=fibo(n);
+        // int ans=fibo1(n, dp);
         // int ans=fibo2(n, dp);
         int ans=fibo3(n);
         System.out.println(ans);

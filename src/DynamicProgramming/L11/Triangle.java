@@ -57,7 +57,6 @@ public class Triangle {
     // tabulation(space optimized)
     public static int triangle4(int[][] nums){
         int[] prev=new int[nums[nums.length-1].length];
-        Arrays.fill(prev, -1);
         for(int col=0; col<nums[nums.length-1].length; col++){
             prev[col]=nums[nums.length-1][col];
         }
