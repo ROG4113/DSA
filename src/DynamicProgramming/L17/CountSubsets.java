@@ -2,6 +2,17 @@ package DynamicProgramming.L17;
 
 import java.util.Arrays;
 
+// Note: If array contains 0s we can count them and the answer will be, no. of zeroes*answer
+// For adjusting the following code(for 0s) base case will be,
+// if(ind==0){
+//     if(sum==0 && arr[0]==0){
+//         return 2;
+//     }
+//     if(sum==0 || sum==arr[0]){
+//         return 1;
+//     }
+//     return 0;
+// }
 public class CountSubsets {
     // recursion TC-> O(2^n) SC-> O(n)
     public static int count(int[] arr, int ind, int sum){
@@ -23,11 +34,7 @@ public class CountSubsets {
     }
 
     // memoization TC-> O(n*sum) SC-> O(n*sum) + O(n)
-    public static int count1(int[] arr, int ind, int sum){
-        int[][] dp=new int[ind+1][sum+1];
-        for(int[] oneD:dp){
-            Arrays.fill(oneD, -1);
-        }
+    public static int count1(int[] arr, int[][] dp, int ind, int sum){
         if(sum==0){
             return 1;
         }
@@ -75,6 +82,7 @@ public class CountSubsets {
         prev[arr[0]]=1;
         for(int ind=1; ind<arr.length; ind++){
             int[] cur=new int[sum+1];
+            cur[arr[0]]=1;
             for(int target=1; target<=sum; target++){
                 int pick=0;
                 if(arr[ind]<=target){
@@ -89,10 +97,15 @@ public class CountSubsets {
     }
 
     public static void main(String[] args) {
-        int[] arr=new int[]{1, 3, 2};
-        System.out.println(count(arr, arr.length-1, 3));
-        System.out.println(count1(arr, arr.length-1, 3));
-        System.out.println(count2(arr, 3));
-        System.out.println(count3(arr, 3));
+        int[] arr=new int[]{0, 0, 1};
+        int sum=1;
+        System.out.println(count(arr, arr.length-1, sum));
+        int[][] dp=new int[ind+1][sum+1];
+        for(int[] oneD:dp){
+            Arrays.fill(oneD, -1);
+        }
+        System.out.println(count1(arr, dp, arr.length-1, sum));
+        System.out.println(count2(arr, sum));
+        System.out.println(count3(arr, sum));
     }
 }

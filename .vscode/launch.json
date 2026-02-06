@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CountPartitions",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L18.CountPartitions",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "Practice1",
       "request": "launch",
       "mainClass": "Practice.Practice1",
