@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Knapsack",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L19.Knapsack",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "CountPartitions",
       "request": "launch",
       "mainClass": "DynamicProgramming.L18.CountPartitions",
