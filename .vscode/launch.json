@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TargetSum",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L21.TargetSum",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "MinimumCoins",
       "request": "launch",
       "mainClass": "DynamicProgramming.L20.MinimumCoins",

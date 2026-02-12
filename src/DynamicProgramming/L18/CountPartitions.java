@@ -97,7 +97,7 @@ public class CountPartitions {
         for(int i=0; i<arr.length; i++){
             sum=sum+arr[i];
         }
-        if((sum-d<0) || (sum-d)%2!=0){
+        if((sum+d<0) || (sum+d)%2!=0){
             return;
         }
         int[][] dp=new int[arr.length][sum+1];
