@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinimumCoins",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L20.MinimumCoins",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "Knapsack",
       "request": "launch",
       "mainClass": "DynamicProgramming.L19.Knapsack",
