@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CoinChange2",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L22.CoinChange2",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "TargetSum",
       "request": "launch",
       "mainClass": "DynamicProgramming.L21.TargetSum",
