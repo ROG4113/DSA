@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "UnboundedKnapSack",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L23.UnboundedKnapSack",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "CoinChange2",
       "request": "launch",
       "mainClass": "DynamicProgramming.L22.CoinChange2",
