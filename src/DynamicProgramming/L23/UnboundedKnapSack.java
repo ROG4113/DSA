@@ -7,7 +7,7 @@ public class UnboundedKnapSack {
     public static int knapSack(int[] val, int[] wt, int ind, int w){
         if(ind==0){
             if(wt[0]<=w){
-                return val[0];
+                return ((int)w/wt[0])*val[0];
             }
             else{
                 return 0;
@@ -25,7 +25,7 @@ public class UnboundedKnapSack {
     public static int knapSack1(int[] val, int[] wt, int[][] dp, int ind, int w){
         if(ind==0){
             if(wt[0]<=w){
-                return val[0];
+                return ((int)w/wt[0])*val[0];
             }
             else{
                 return 0;
@@ -46,7 +46,7 @@ public class UnboundedKnapSack {
     public static int knapSack2(int[] val, int[] wt, int w){
         int[][] dp=new int[val.length][w+1];
         for(int i=wt[0]; i<=w; i++){
-            dp[0][i]=val[0];
+            dp[0][i]=((int)i/wt[0])*val[0];
         }
         for(int ind=1; ind<val.length; ind++){
             for(int weight=1; weight<=w; weight++){
@@ -65,7 +65,7 @@ public class UnboundedKnapSack {
     public static int knapSack3(int[] val, int[] wt, int w){
         int[] prev=new int[w+1];
         for(int i=wt[0]; i<=w; i++){
-            prev[i]=val[0];
+            prev[i]=((int)i/wt[0])*val[0];
         }
         for(int ind=1; ind<val.length; ind++){
             int[] curr=new int[w+1];
@@ -86,7 +86,7 @@ public class UnboundedKnapSack {
     public static int knapSack4(int[] val, int[] wt, int w){
         int[] prev=new int[w+1];
         for(int i=wt[0]; i<=w; i++){
-            prev[i]=val[0];
+            prev[i]=((int)i/wt[0])*val[0];
         }
         for(int ind=1; ind<val.length; ind++){
             for(int weight=1; weight<=w; weight++){

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RodCutting",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L24.RodCutting",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "UnboundedKnapSack",
       "request": "launch",
       "mainClass": "DynamicProgramming.L23.UnboundedKnapSack",
