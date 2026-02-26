@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LCS",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L25.LCS",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "RodCutting",
       "request": "launch",
       "mainClass": "DynamicProgramming.L24.RodCutting",
