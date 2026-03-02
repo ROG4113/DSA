@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PrintLCS",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L26.PrintLCS",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "LCS",
       "request": "launch",
       "mainClass": "DynamicProgramming.L25.LCS",
