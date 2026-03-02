@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestCommonSubstring",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L27.LongestCommonSubstring",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "PrintLCS",
       "request": "launch",
       "mainClass": "DynamicProgramming.L26.PrintLCS",
