@@ -1,10 +1,13 @@
-package DynamicProgramming.L28;
+package DynamicProgramming.L29;
 
-public class LPS {
-    // The trick to find longest common palindromic subsequence(LPS) is to find LCS(str, rev(str))
+public class MinimumInsertionsPalindrome {
+    // The trick to find minimum insertions to make a string palindrome,
+    // is to find already palindromic common subsequence in the string i.e.
+    // LPS(str) or LCS(str, rev(str)) and then subtract it from length of string.
+    // This gives us the non-palindromic part that needs to be inserted.
 
     // Tabulation
-    public static int palindrome(String str){
+    public static int insertions(String str){
         StringBuilder sb=new StringBuilder(str);
         String str2=sb.reverse().toString();
         int[][] dp=new int[str.length()+1][str2.length()+1];
@@ -24,11 +27,11 @@ public class LPS {
                 }
             }
         }
-        return dp[str.length()][str2.length()];
+        return str.length()-dp[str.length()][str2.length()];
     }
 
     // Space Optimization
-    public static int palindrome1(String str){
+    public static int insertions1(String str){
         StringBuilder sb=new StringBuilder(str);
         String str2=sb.reverse().toString();
         int[] prev=new int[str2.length()+1];
@@ -47,12 +50,12 @@ public class LPS {
             }
             prev=curr;
         }
-        return prev[str2.length()];
+        return str.length()-prev[str2.length()];
     }
 
     public static void main(String[] args) {
-        String str="zzazz";
-        System.out.println(palindrome(str));
-        System.out.println(palindrome1(str));
+        String str="mbadm";
+        System.out.println(insertions(str));
+        System.out.println(insertions1(str));
     }
 }
