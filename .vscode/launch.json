@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinimumOperations",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L30.MinimumOperations",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "MinimumInsertionsPalindrome",
       "request": "launch",
       "mainClass": "DynamicProgramming.L29.MinimumInsertionsPalindrome",
