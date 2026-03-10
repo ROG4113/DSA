@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ShortestCommonSupersequence",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L31.ShortestCommonSupersequence",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "MinimumOperations",
       "request": "launch",
       "mainClass": "DynamicProgramming.L30.MinimumOperations",
