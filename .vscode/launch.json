@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DistinctSubsequence",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L32.DistinctSubsequence",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "ShortestCommonSupersequence",
       "request": "launch",
       "mainClass": "DynamicProgramming.L31.ShortestCommonSupersequence",
