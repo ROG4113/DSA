@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EditDistance",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L33.EditDistance",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "DistinctSubsequence",
       "request": "launch",
       "mainClass": "DynamicProgramming.L32.DistinctSubsequence",

@@ -2,6 +2,8 @@ package DynamicProgramming.L32;
 
 import java.util.Arrays;
 
+// Given two strings s and t, return the number of distinct subsequences of s which equals t.
+// The test cases are generated so that the answer fits on a 32-bit signed integer.
 public class DistinctSubsequence {
     // Recursion
     public static int distinct(String s, String t, int ind1, int ind2){
