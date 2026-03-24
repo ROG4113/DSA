@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "WildcardMatching",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L34.WildcardMatching",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L33.Solution",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "EditDistance",
       "request": "launch",
       "mainClass": "DynamicProgramming.L33.EditDistance",
