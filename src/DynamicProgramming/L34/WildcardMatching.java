@@ -2,6 +2,13 @@ package DynamicProgramming.L34;
 
 import java.util.Arrays;
 
+// Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:
+
+//    - '?' Matches any single character.
+//    - '*' Matches any sequence of characters (including the empty sequence).
+
+// The matching should cover the entire input string (not partial).
+
 public class WildcardMatching {
     // recursion
     public static boolean matching(String s, String p, int ind1, int ind2){

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BestTimeStock",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L35.BestTimeStock",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "WildcardMatching",
       "request": "launch",
       "mainClass": "DynamicProgramming.L34.WildcardMatching",

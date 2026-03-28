@@ -3,7 +3,7 @@ package DynamicProgramming.L12;
 import java.util.Arrays;
 
 public class MinFallPath {
-    // recursion (0, j) to (m-1, n-1)
+    // recursion (0, j) to (m-1, j)
     public static int fall(int[][] nums, int row, int col){
         if(row==nums.length-1){
             return nums[row][col];
@@ -15,7 +15,7 @@ public class MinFallPath {
         return Math.min(down, Math.min(dLeft, dRight));
     }
 
-    // recursion (m-1, n-1) to (0, j) TC-> O(3^n), SC-> O(n)
+    // recursion (m-1, j) to (0, j) TC-> O(3^n), SC-> O(n)
     public static int fall1(int[][] nums, int row, int col){
         if(row==0){
             return nums[row][col];
@@ -27,7 +27,7 @@ public class MinFallPath {
         return Math.min(up, Math.min(uLeft, uRight));
     }
 
-    // memoization (m-1, n-1) to (0, j) TC-> O(n*m), SC-> O(n*m) + O(n)
+    // memoization (m-1, j) to (0, j) TC-> O(n*m), SC-> O(n*m) + O(n)
     public static int fall2(int[][] nums, int[][] dp, int row, int col){
         if(row==0){
             return nums[row][col];

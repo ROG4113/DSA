@@ -49,7 +49,7 @@ public class MinimumPathSum {
 
     // tabulation(space optimized)
     public static int min3(int[][] paths, int[] prev){
-        prev[0]=paths[0][0];
+        // prev[0]=paths[0][0];
         for(int i=0; i<paths.length; i++){
             int[] cur=new int[paths[0].length];
             for(int j=0; j<paths[0].length; j++){

@@ -33,11 +33,7 @@ public class EqualPartitionSum {
     }
 
     // memoization TC-> O(n*target) SC-> O(n*target)+O(n)
-    public static boolean sum2(int[] arr, int ind, int target){
-        int[][] dp=new int[arr.length][target+1];
-        for(int[] oneD:dp){
-            Arrays.fill(oneD, -1);
-        }
+    public static boolean sum2(int[][] dp, int[] arr, int ind, int target){
         if(target==0){
             return true;
         }
@@ -100,8 +96,8 @@ public class EqualPartitionSum {
         t=t/2;
         boolean[] prev=new boolean[t+1];
         prev[0]=true;
-        if(nums[0]<=t){
-            prev[nums[0]]=true;
+        if(arr[0]<=t){
+            prev[arr[0]]=true;
         }
         for(int ind=1; ind<arr.length; ind++){
             boolean[] cur=new boolean[t+1];
@@ -129,8 +125,12 @@ public class EqualPartitionSum {
         boolean ans=sum(arr, 0, 0, target);
         
         boolean ans1=sum1(arr, arr.length-1, target);
-        
-        boolean ans2=sum2(arr, arr.length-1, target);
+
+        int[][] dp=new int[arr.length][target+1];
+        for(int[] oneD:dp){
+            Arrays.fill(oneD, -1);
+        }
+        boolean ans2=sum2(dp, arr, arr.length-1, target);
         
         boolean ans3=sum3(arr);
 

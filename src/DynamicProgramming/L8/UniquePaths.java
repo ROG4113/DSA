@@ -33,8 +33,8 @@ public class UniquePaths {
     //tabulation TC-> O(m*n), SC-> O(m*n)
     public static int path2(int[][] dp, int row, int col){
         dp[0][0]=1;
-        for(int i=0; i<row; i++){
-            for(int j=0; j<col; j++){
+        for(int i=0; i<=row; i++){
+            for(int j=0; j<=col; j++){
                 if(i==0 && j==0){
                     dp[i][j]=1;
                 }
@@ -50,15 +50,15 @@ public class UniquePaths {
                 }
             }
         }
-        return dp[row-1][col-1];
+        return dp[row][col];
     }
 
     //tabulation(space optimized) TC-> O(m*n), SC-> O(m*n)
     public static int path3(int[] prev, int row, int col){
         prev[0]=1;
-        for(int i=0; i<row; i++){
+        for(int i=0; i<=row; i++){
             int[] temp=new int[prev.length];
-            for(int j=0; j<col; j++){
+            for(int j=0; j<=col; j++){
                 if(i==0 && j==0){
                     temp[j]=1;
                 }
@@ -75,16 +75,17 @@ public class UniquePaths {
             }
             prev=temp;
         }
-        return prev[col-1];
+        return prev[col];
     }
 
     public static void main(String[] args){
         int[][] dp=new int[][]{{-1, -1}, {-1, -1}};
         int ans=path(1, 1);
         int ans1=path1(dp, 1, 1);
-        int ans2=path2(dp, 2, 2);
+        dp=new int[][]{{-1, -1}, {-1, -1}};
+        int ans2=path2(dp, 1, 1);
         int[] dp1=new int[]{-1, -1};
-        int ans3=path3(dp1, 2, 2);
+        int ans3=path3(dp1, 1, 1);
         System.out.println(ans + " " + ans1 + " " + ans2 + " " + ans3);
     }
 }

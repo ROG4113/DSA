@@ -6,7 +6,7 @@ public class Knapsack {
     // Recursion TC-> O(2^N) SC-> O(N)
     public static int max(int[] val, int[] wt, int ind, int w){
         if(ind==0){
-            if(w==wt[0]){
+            if(wt[0]<=w){
                 return val[0];
             }
             else{
@@ -36,9 +36,9 @@ public class Knapsack {
         }
         int pick=Integer.MIN_VALUE;
         if(wt[ind]<=w){
-            pick=max1(val, wt, dp, ind-1, w=wt[ind]);
+            pick=max1(val, wt, dp, ind-1, w-wt[ind]);
         }
-        int notPick=max(val, wt, ind-1, w);
+        int notPick=max1(val, wt, dp, ind-1, w);
         return dp[ind][w]=Math.max(pick, notPick);
     }
 

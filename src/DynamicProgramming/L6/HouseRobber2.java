@@ -5,7 +5,7 @@ public class HouseRobber2 {
     public static int rob(int[] arr, int start, int end){
         int prev=arr[start];
         int prev2=0;
-        for(int i=start; i<=end; i++){
+        for(int i=start+1; i<=end; i++){
             int pick=arr[i];
             if(i>start+1){
                 pick+=prev2;
