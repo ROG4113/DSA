@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BestTimeStockII",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L36.BestTimeStockII",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "BestTimeStock",
       "request": "launch",
       "mainClass": "DynamicProgramming.L35.BestTimeStock",
