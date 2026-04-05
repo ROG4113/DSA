@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BestTimeStockFee",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L40.BestTimeStockFee",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "BestTimeStockCooldown",
       "request": "launch",
       "mainClass": "DynamicProgramming.L39.BestTimeStockCooldown",

@@ -98,7 +98,5 @@ public class BestTimeStockII {
         System.out.println(best2(prices));
 
         System.out.println(best3(prices));
-
-        System.out.println(bestt(prices, prices.length-1, false));
     }
 }
