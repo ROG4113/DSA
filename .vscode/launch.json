@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LIS",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L42.LIS",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "LongestIncreasingSubsequence",
       "request": "launch",
       "mainClass": "DynamicProgramming.L41.LongestIncreasingSubsequence",

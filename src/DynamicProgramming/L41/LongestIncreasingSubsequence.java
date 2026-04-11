@@ -21,13 +21,13 @@ public class LongestIncreasingSubsequence {
             return 0;
         }
         if(dp[ind][prevInd+1]!=-1){
-            return dp[ind][prevInd];
+            return dp[ind][prevInd+1];
         }
         int pick=0, notPick=0;
         if(prevInd==-1 || nums[ind]>=nums[prevInd]){
-            pick=1+lis(nums, ind+1, ind);
+            pick=1+lis1(dp, nums, ind+1, ind);
         }
-        notPick=lis(nums, ind+1, prevInd);
+        notPick=lis1(dp, nums, ind+1, prevInd);
         return dp[ind][prevInd+1]=Math.max(pick, notPick);
     }
 
