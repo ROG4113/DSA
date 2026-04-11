@@ -97,17 +97,21 @@ public class LCS {
         String str1="acd";
         String str2="ced";
         System.out.println(longest(str1, str1.length()-1, str2, str2.length()-1));
+
         int[][] dp=new int[str1.length()][str2.length()];
         for(int[] oneD:dp){
             Arrays.fill(oneD, -1);
         }
         System.out.println(longest1(dp, str1, str1.length()-1, str2, str2.length()-1));
+
         int[][] dp1=new int[str1.length()+1][str2.length()+1];
         for(int[] oneD:dp1){
             Arrays.fill(oneD, -1);
         }
         System.out.println(longest2(dp1, str1, str1.length(), str2, str2.length()));
+
         System.out.println(longest3(str1, str2));
+        
         System.out.println(longest4(str1, str2));
     }
 }

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestIncreasingSubsequence",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L41.LongestIncreasingSubsequence",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "BestTimeStockFee",
       "request": "launch",
       "mainClass": "DynamicProgramming.L40.BestTimeStockFee",
