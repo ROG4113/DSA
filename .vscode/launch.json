@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LISBinarySearch",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L43.LISBinarySearch",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "LIS",
       "request": "launch",
       "mainClass": "DynamicProgramming.L42.LIS",
