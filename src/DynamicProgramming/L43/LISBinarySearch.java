@@ -8,7 +8,7 @@ public class LISBinarySearch {
     public static int lis(int[] nums){
         List<Integer> list=new ArrayList<>();
         for(int i:nums){
-            if(list.isEmpty() || list.get(list.size()-1)<=i){
+            if(list.isEmpty() || list.get(list.size()-1)<i){
                 list.add(i);
             }
             else{

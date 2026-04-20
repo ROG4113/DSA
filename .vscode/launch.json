@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestStringChain",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L45.LongestStringChain",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "LargestDivisibleSubset",
       "request": "launch",
       "mainClass": "DynamicProgramming.L44.LargestDivisibleSubset",
