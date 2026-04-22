@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestBitonicSubsequence",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L46.LongestBitonicSubsequence",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "LongestStringChain",
       "request": "launch",
       "mainClass": "DynamicProgramming.L45.LongestStringChain",
