@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CountLIS",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L47.CountLIS",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "LongestBitonicSubsequence",
       "request": "launch",
       "mainClass": "DynamicProgramming.L46.LongestBitonicSubsequence",
