@@ -31,7 +31,7 @@ public class CountLIS {
     }
 
     public static void main(String[] args) {
-        int[] nums=new int[]{2, 2, 2, 2, 2, 2};
+        int[] nums=new int[]{1, 1, 1, 2, 2, 2, 3, 3, 3};
         System.out.println(count(nums));
     }
 }

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MatrixChainMultiplication",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L48.MatrixChainMultiplication",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "CountLIS",
       "request": "launch",
       "mainClass": "DynamicProgramming.L47.CountLIS",

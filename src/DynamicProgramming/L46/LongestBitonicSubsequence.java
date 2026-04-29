@@ -2,6 +2,9 @@ package DynamicProgramming.L46;
 
 import java.util.Arrays;
 
+// Given an array arr of n integers, the task is to find the length of the longest bitonic sequence.
+// A sequence is considered bitonic if it first increases, then decreases. The sequence does not have to be contiguous.
+
 public class LongestBitonicSubsequence {
     public static int lbs(int[] nums){
         // two LIS one ffrom front one from back dp1[i]+dp2[i]-1, -1 because middle one will be common
