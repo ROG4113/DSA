@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MCM",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L49.MCM",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "MatrixChainMultiplication",
       "request": "launch",
       "mainClass": "DynamicProgramming.L48.MatrixChainMultiplication",
