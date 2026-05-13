@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinRodCutting",
+      "request": "launch",
+      "mainClass": "DynamicProgramming.L50.MinRodCutting",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "MCM",
       "request": "launch",
       "mainClass": "DynamicProgramming.L49.MCM",
